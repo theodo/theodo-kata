@@ -11,4 +11,6 @@ git pull sf-standard master
 git push -u origin master
 #####
 docker-compose up -d
+docker exec -it theodokata_web_1 bash
+phpunit -c app/
 ```
