@@ -1,0 +1,14 @@
+{
+  "name": "theodo-kata",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "_mocha --compilers 'coffee:coffee-script/register' run-tests.coffee"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
